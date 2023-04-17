@@ -5,7 +5,7 @@
   padding: rem(40px) 0;
   margin: rem(40px) 0;
 
-  @include media(">=sm") {
+  @include media('>=sm') {
     padding: rem(50px) 0;
   }
 
@@ -14,7 +14,7 @@
     max-width: rem(800px);
     padding: 0 rem(20px);
 
-    @include media("<sm") {
+    @include media('<sm') {
       text-align: center;
     }
   }
@@ -41,7 +41,7 @@
     display: block;
     margin: auto;
 
-    @include media(">=sm") {
+    @include media('>=sm') {
       width: rem(180px);
       float: left;
       margin-right: 3.125rem;
@@ -54,7 +54,7 @@
     @include mainFont(300);
     margin: rem(10px);
 
-    @include media(">=sm") {
+    @include media('>=sm') {
       margin: 0;
     }
   }
@@ -68,7 +68,7 @@
       color: black;
       font-size: rem(30px);
 
-      @include media(">=sm") {
+      @include media('>=sm') {
         font-size: rem(45px);
       }
 
@@ -84,7 +84,7 @@
     font-size: rem(16px);
     line-height: rem(25px);
 
-    @include media(">=sm") {
+    @include media('>=sm') {
       font-size: rem(18px);
     }
   }
